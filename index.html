@@ -40,8 +40,8 @@
         class="logo__image"
         src="./images/Logo.svg"
         alt="Positivus"
-        height="220"
-        width="36"
+        height="36"
+        width="220"
         loading="lazy"
       />
     </a>
@@ -105,6 +105,66 @@
   </div>
 </header>
 
-<dialog class="mobile-overlay visible mobile" id="mobileOverlay">MENU</dialog>
+<dialog
+  class="mobile-overlay visible mobile"
+  id="mobileOverlay"
+>
+  <form
+    action=""
+    class="mobile-overlay__close-button-wrapper"
+    method="dialog"
+  >
+    <button
+      class="mobile-overlay__close-button cross-button"
+      type="submit"
+    >
+      <span class="visually-hidden">Close navigation menu</span>
+    </button>
+  </form>
+  <div class="mobile-overlay__body">
+    <ul class="mobile-overlay__body">
+      <li class="mobile-overlay__item">
+        <a
+          class="mobile-overlay__limk"
+          href="/"
+        >
+          About us
+        </a>
+      </li>
+      <li class="mobile-overlay__item">
+        <a
+          class="mobile-overlay__limk"
+          href="/"
+        >
+          Services
+        </a>
+      </li>
+      <li class="mobile-overlay__item">
+        <a
+          class="mobile-overlay__limk"
+          href="/"
+        >
+          Use Cases
+        </a>
+      </li>
+      <li class="mobile-overlay__item">
+        <a
+          class="mobile-overlay__limk"
+          href="/"
+        >
+          Pricing
+        </a>
+      </li>
+      <li class="mobile-overlay__item">
+        <a
+          class="mobile-overlay__limk"
+          href="/"
+        >
+          Blog
+        </a>
+      </li>
+    </ul>
+  </div>
+</dialog>
 </body>
 </html>

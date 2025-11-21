@@ -1,5 +1,5 @@
 body {
-  @include fluid-text(18,16);
+  @include fluid-text(18, 16);
 
   font-family: var(--font-family-base);
   font-weight: 400;
@@ -24,7 +24,7 @@ a {
 }
 
 
-h1,h2,h3,h4{
+h1, h2, h3, h4 {
   font-weight: 500;
 }
 
